@@ -1,0 +1,45 @@
+.single{
+
+}
+.single h5{
+    color: white;
+}
+.single h4{
+    color: white;
+}
+
+.single input{
+    margin: 5px;
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    border: none;
+    height: 40px;
+}
+
+.single input:focus{
+    outline: none;
+}
+
+.single .background{
+    background-color: #232a34;
+}
+
+.single-teams{
+    display: flex;
+    margin: 10px;
+}
+
+.single-team-1{
+    flex-direction: column;
+    margin: 10px;
+    flex: 50%;
+}
+
+.single-team-2{
+    flex-direction: column;
+    margin: 10px;
+    flex: 50%;
+}

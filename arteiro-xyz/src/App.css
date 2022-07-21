@@ -1,0 +1,17 @@
+.app {
+  height: 100vh;
+  background-color: #232a34;
+}
+
+.app-content {
+  text-align: center;
+  position: relative;
+  min-height: 90vh;
+  background-color: #232a34;
+}
+
+.app-nave {
+  padding: 0;
+  margin: 0;
+  height: 10vh;
+}

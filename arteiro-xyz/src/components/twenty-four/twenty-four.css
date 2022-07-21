@@ -1,0 +1,223 @@
+.twenty-four-square{
+    background-color: #03268C;
+    height: 90vh;
+    width: 100%;
+    overflow: auto;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #020c29;
+    padding: 0;
+}
+
+
+.twenty-four-container{
+    width: 100vh;
+    margin: 30px;
+    top: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+.twenty-four-stopwatch {
+    display: flex;
+    color: black;
+    padding: 5 px;
+    margin: 5 px;
+    font-size: 3rem;
+}
+.twenty-four-retry{
+    border: 4px outset #021650;
+    background-color: #012796;
+    position: absolute;
+    display: flex;
+    cursor: pointer;
+    font-size: 3rem;
+    right: 20px;
+}
+.twenty-four-retry:hover{
+    border: 4px outset #162554;
+}
+.twenty-four-difficulty{
+    position: absolute;
+    display: flex;
+    left: 80%;
+
+}
+.twenty-four-ball{
+    margin: 0.3rem;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #dc9f25;
+}
+
+
+.twenty-four-operations{
+    position: absolute;
+    right: 100px;
+}
+.twenty-four-op{
+    font-size: 2.5rem;
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+    cursor: pointer;
+    border: 4px outset #021650;
+    background-color: #012796;
+}
+.twenty-four-op:hover{
+    border: 4px outset #162554;
+
+}
+
+
+.twenty-four-circle{
+    height: 500px;
+    width: 500px;
+    background-color: #dc9f25;
+    border-radius: 50%;
+    position: relative;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.twenty-four-numbers{
+    position: relative;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 50px;
+    width: 100%;
+    height: 100%;
+}
+.twenty-four-top{
+    position: absolute;
+    top:0;
+    padding: 0;
+}
+.twenty-four-left{
+    position: absolute;
+    left: 0;
+    padding: 0;
+    margin-left: 50px;
+}
+.twenty-four-right{
+    position: absolute;
+    right: 0;
+    padding: 0;
+    margin-right: 50px;
+}
+.twenty-four-bot{
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+}
+.twenty-four-start{
+    z-index: 4;
+    position: absolute;
+    background-color: #b42253;
+    height: 50px;
+    width: 50px;
+    border:2px outset white;
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.twenty-four-start:hover{
+    border-style: inset;
+}
+.twenty-four-startTimer:hover{
+    cursor: pointer;
+}
+.twenty-four-numbers button{
+    background-color: transparent;
+    border: none;
+    color: #020c29;
+    font-size: 10rem;
+    cursor: pointer;
+}
+.twenty-four-numbers button:hover{
+    color: #1a50ce;
+}
+
+
+.twenty-four-square span{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 40px;
+}
+.twenty-four-square input{
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    left: 0;
+    font-size: 2rem;
+    border: none;
+    height: 40px;
+}
+.twenty-four-square input:focus{
+    outline: none;
+}
+.twenty-four-submit{
+    position: absolute;
+    width: 20%;
+    border-radius:0px 10px 10px 0px;
+    border: none;
+    height: 40px;
+    cursor: pointer;
+    right: 15px;
+    font-size: 1.5rem;
+    border: 2px outset #444444;
+    background-color: #777777;
+}
+.twenty-four-submit:hover{
+    background-color: #666666;
+    border-style: inset ;
+}
+.twenty-four-footnote{
+    color: black;
+    font-size: 0.8rem;
+}
+
+
+.twenty-four-win-popup{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    inset: 0px;
+    z-index: 2147483647;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.twenty-four-win-main{
+    width: 700px;
+    height: 500px;
+    background-color: rgb(130, 130, 130);
+    border-radius: 20px;
+}
+.twenty-four-win-main h1{
+    margin: 35px;
+}
+.twenty-four-win-close{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+.twenty-four-win-close:hover{
+    color: #CCCCCC;
+}

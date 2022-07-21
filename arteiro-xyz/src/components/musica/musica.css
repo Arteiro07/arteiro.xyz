@@ -1,0 +1,46 @@
+.music-gif{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.music-gif video {
+  height: 100%;
+  margin: 0;
+  background-color: #232a34;
+  opacity: 0.9;
+}
+.music-gif a{
+  position: absolute;
+  background-color: transparent;
+  background-color: rgba(30, 215, 96, 0.5);
+  border: 3px solid #013b1d;
+}
+
+.music-player{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+}
+
+.music-background{
+  position: relative;
+  height: 90vh;
+  width: 100%;
+  background-color: #166d3b;
+  background-image: linear-gradient(147deg, #166d3b 0%, #000000 74%);
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+
+.music-searchbox{
+  padding: 0;
+  width: 100%;
+  top: 0;
+}
+.music-searchbox input{
+  width: 100%;
+}
