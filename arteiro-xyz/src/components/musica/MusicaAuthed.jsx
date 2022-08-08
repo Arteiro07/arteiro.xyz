@@ -1,5 +1,5 @@
 import {React, useState, useEffect} from 'react'
-import useAuth from '../useAuth/useAuth'
+import useAuth from './useAuth/useAuth'
 import SpotifyWebApi from 'spotify-web-api-node';
 import SearchDropdown from './SearchDropdown';
 import Player from './Player';
@@ -11,7 +11,7 @@ const spotifyApi = new SpotifyWebApi({
   clientId: "3371260c91e84ca38c14aff77cc3afdf",
 })
 
-export default function Musica_Authed() {
+export default function MusicaAuthed() {
   const accessToken = useAuth(code);
   const [search, setSearch]= useState("");
   const [searchResults, setSearchResults]= useState([]);

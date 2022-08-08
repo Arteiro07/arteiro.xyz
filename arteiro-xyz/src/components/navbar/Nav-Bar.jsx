@@ -14,7 +14,6 @@ class NavBarra extends Component{
                     <Navbar.Collapse>
                             <Nav className="me-auto" >
                                 <Nav.Link href="/twentyfour">24</Nav.Link>
-                                <Nav.Link href="/padel">Padel</Nav.Link>
                                 <Nav.Link href="/musica">Musica</Nav.Link>
                                 <NavDropdown title="About me" id="basic-nav-dropdown">
                                     <NavDropdown.Item href="#action/3.1">Email</NavDropdown.Item>

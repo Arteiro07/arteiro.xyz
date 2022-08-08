@@ -1,14 +1,10 @@
 import './App.css';
-import {BrowserRouter as Router, Routes, Link, Route  } from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route  } from 'react-router-dom';
 import NavBarra from './components/navbar/Nav-Bar';
 import Carrossel from './components/carrossel/Carrossel';
 import Twentyfour from './components/twenty-four/Twenty-four';
-import Padel from './components/padel/Padel';
-import Musica_Auth from './components/musica/Musica_Auth';
-import Musica_Authed from './components/musica/Musica_Authed';
-import Tournament from './components/padel/Tournament';
-import Stats from './components/padel/Stats';
-import Single from './components/padel/Single';
+import MusicaAuth from './components/musica/MusicaAuth';
+import MusicaAuthed from './components/musica/MusicaAuthed';
 
 function App() {
   return (
@@ -21,12 +17,8 @@ function App() {
             <Routes>
               <Route path="/" element={<Carrossel/>} />
               <Route path="/twentyfour" element={<Twentyfour/>} />
-              <Route path="/authed"  element={<Musica_Authed/>} />
-              <Route path="/musica" element={<Musica_Auth/>} />
-              <Route path='/padel/tournament' element={<Tournament/>}/>
-              <Route path='/padel/single' element={<Single/>}/>
-              <Route path='/padel/stats' element={<Stats/>}/>
-              <Route path="/padel" element={<Padel/>} />
+              <Route path="/authed"  element={<MusicaAuthed/>} />
+              <Route path="/musica" element={<MusicaAuth/>} />
             </Routes>
           </div>
         </div>  
